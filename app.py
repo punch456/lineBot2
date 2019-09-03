@@ -225,8 +225,7 @@ def callback():
         #sendText(user,'ขอโทษค่ะ')     
     eles :
         sendText(user,'เอ่อ...ฉันไม่เข้าใจที่คุณพูดน่ะค่ะ โปรดตรวจสอบว่าสิ่งที่คุณถามเหมาะสมแล้วหรือไม่ หรือลองปรับแก้ข้อความนิดๆหน่อยๆก็ได้ค่ะ ต้องขออภัยด้วยนะคะที่บางอย่างคุณอาจจะถามไม่ได้')
- 
-    return '',200
+     return '',200
 
 def sendText(user, text):
   LINE_API = 'https://api.line.me/v2/bot/message/reply'
